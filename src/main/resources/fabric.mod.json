@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "nbtviewer",
+  "version": "${version}",
+
+  "name": "NBT Viewer",
+  "description": "View the NBT data for items in your hand",
+  "authors": [
+    "MarioAndWeegee3"
+  ],
+  "contact": {
+    "homepage": "https://marioandweegee3.github.io"
+  },
+
+  "license": "MIT",
+  "icon": "assets/nbtviewer/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "marioandweegee3.nbtviewer.NBTViewer"
+    ],
+    "client": [
+      "marioandweegee3.nbtviewer.NBTViewerClient"
+    ]
+  },
+  "mixins": [
+    
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.2",
+    "fabric": "*",
+    "minecraft": ">=1.15"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

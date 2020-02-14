@@ -1,0 +1,5 @@
+{
+    "nbtviewer.command.nbtview.playertarget":"Target player not found",
+    "nbtviewer.command.nbtview.stackempty":"Target ItemStack is empty",
+    "text.nbtviewer.title":"NBT Viewer"
+}
