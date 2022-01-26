@@ -27,6 +27,7 @@
     "fabric": "*",
     "fabric-language-kotlin": ">=1.7.1+kotlin.1.6.10",
     "minecraft": ">=1.18.1",
-    "java": ">=17"
+    "java": ">=17",
+    "kambrik": "*"
   }
 }
