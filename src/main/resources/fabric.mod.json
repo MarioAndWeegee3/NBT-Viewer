@@ -1,0 +1,32 @@
+{
+ "schemaVersion": 1,
+  "id": "nbtviewer",
+  "version": "${version}",
+  "name": "NBT Viewer",
+  "description": "View the NBT data of your items",
+  "authors": [
+    "MarioAndWeegee3"
+  ],
+  "contact": {
+    "homepage": "https://marioandweegee3.github.io"
+  },
+  "license": "MIT",
+  "icon": "assets/nbtviewer/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      {
+        "adapter": "kotlin",
+        "value": "marioandweegee3.nbtviewer.NBTViewerMod"
+      }
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "fabric-language-kotlin": ">=1.7.1+kotlin.1.6.10",
+    "minecraft": ">=1.18.1",
+    "java": ">=17"
+  }
+}

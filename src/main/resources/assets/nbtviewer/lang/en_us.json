@@ -1,0 +1,15 @@
+{
+  "key.nbtviewer.view_nbt": "View NBT Data",
+  "category.nbtviewer.keys": "NBT Viewer",
+  "text.nbtviewer.title": "Data",
+  "text.nbtviewer.back": "Back",
+  "text.nbtviewer.element.string": "%s: String = \"%s\"",
+  "text.nbtviewer.element.byte": "%s: Byte = %d",
+  "text.nbtviewer.element.short": "%s: Short = %d",
+  "text.nbtviewer.element.int": "%s: Int = %d",
+  "text.nbtviewer.element.long": "%s: Long = %d",
+  "text.nbtviewer.element.float": "%s: Float = %f",
+  "text.nbtviewer.element.double": "%s: Double = %f",
+  "text.nbtviewer.element.list": "%s: List",
+  "text.nbtviewer.element.object": "%s: Object"
+}
