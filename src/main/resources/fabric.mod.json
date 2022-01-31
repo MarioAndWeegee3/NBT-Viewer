@@ -8,7 +8,9 @@
     "MarioAndWeegee3"
   ],
   "contact": {
-    "homepage": "https://marioandweegee3.github.io"
+    "homepage": "https://marioandweegee3.github.io",
+    "issues": "https://github.com/MarioAndWeegee3/NBT-Viewer/issues",
+    "sources": "https://github.com/MarioAndWeegee3/NBT-Viewer"
   },
   "license": "MIT",
   "icon": "assets/nbtviewer/icon.png",

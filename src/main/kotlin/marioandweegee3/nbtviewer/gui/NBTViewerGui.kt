@@ -9,7 +9,6 @@ import net.fabricmc.api.Environment
 import net.minecraft.client.MinecraftClient
 import net.minecraft.nbt.*
 import net.minecraft.nbt.visitor.NbtElementVisitor
-import net.minecraft.text.LiteralText
 import net.minecraft.text.TranslatableText
 
 @Environment(EnvType.CLIENT)
@@ -63,7 +62,7 @@ class NBTViewerGui private constructor(
                             .setScreen(NBTViewerScreen(enclosing))
                     }
             } else {
-                WButton(LiteralText("X"))
+                WButton(TranslatableText("text.nbtviewer.close"))
                     .setOnClick {
                         MinecraftClient
                             .getInstance()

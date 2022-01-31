@@ -3,6 +3,7 @@
   "category.nbtviewer.keys": "NBT Viewer",
   "text.nbtviewer.title": "Data",
   "text.nbtviewer.back": "Back",
+  "text.nbtviewer.close": "Close",
   "text.nbtviewer.element.string": "%s: String = \"%s\"",
   "text.nbtviewer.element.byte": "%s: Byte = %d",
   "text.nbtviewer.element.short": "%s: Short = %d",

@@ -1,7 +1,8 @@
 # NBT Viewer
 
-**The current version is a work in progress, and is not intended for use
-in mod packs.**
+Release 2.0.0 and later are fully stable and OK to use in mod packs.
+Link to the CurseForge, Modrinth, or GitHub page if you include it in
+a pack.
 
 ## Usage
 
