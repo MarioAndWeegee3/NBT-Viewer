@@ -37,8 +37,6 @@ dependencies {
     modImplementation("net.fabricmc:fabric-language-kotlin:$fabricKotlinVersion")
     val libGuiVersion: String by project
     modImplementation(include("io.github.cottonmc:LibGui:$libGuiVersion")!!)
-    val kambrikVersion: String by project
-    modImplementation("io.ejekta:kambrik:$kambrikVersion")
 }
 
 tasks {
@@ -54,8 +52,6 @@ tasks {
         kotlinOptions {
             jvmTarget = javaVersion.toString()
         }
-        sourceCompatibility = javaVersion.toString()
-        targetCompatibility = javaVersion.toString()
     }
 
     jar {

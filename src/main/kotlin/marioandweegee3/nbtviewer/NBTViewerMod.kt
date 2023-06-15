@@ -48,5 +48,4 @@ object NBTViewerMod: ClientModInitializer {
             }
         }
     }
-
 }
