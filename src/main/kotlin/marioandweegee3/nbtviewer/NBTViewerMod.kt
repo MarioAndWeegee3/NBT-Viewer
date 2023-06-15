@@ -16,7 +16,7 @@ import org.slf4j.LoggerFactory
 
 @Environment(EnvType.CLIENT)
 @Suppress("unused")
-object NBTViewerMod: ClientModInitializer {
+object NBTViewerMod : ClientModInitializer {
     const val modId = "nbtviewer"
     val logger: Logger = LoggerFactory.getLogger("NBT Viewer")
 
@@ -27,7 +27,7 @@ object NBTViewerMod: ClientModInitializer {
 
         key = KeyBindingHelper.registerKeyBinding(
             KeyBinding(
-            "key.nbtviewer.view_nbt",
+                "key.nbtviewer.view_nbt",
                 InputUtil.Type.KEYSYM,
                 GLFW.GLFW_KEY_RIGHT_ALT,
                 "category.nbtviewer.keys"

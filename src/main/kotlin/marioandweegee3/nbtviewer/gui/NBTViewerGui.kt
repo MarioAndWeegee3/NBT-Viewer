@@ -38,6 +38,7 @@ class NBTViewerGui private constructor(
                         }
                     }
                 }
+
                 is AbstractNbtList<*> -> {
                     buildList {
                         for ((index, value) in nbt.withIndex()) {
@@ -45,6 +46,7 @@ class NBTViewerGui private constructor(
                         }
                     }
                 }
+
                 else -> emptyList()
             }
 

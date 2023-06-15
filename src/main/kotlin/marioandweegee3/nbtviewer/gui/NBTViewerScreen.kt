@@ -8,7 +8,7 @@ import net.minecraft.text.Text
 @Environment(EnvType.CLIENT)
 class NBTViewerScreen(
     description: NBTViewerGui,
-): CottonClientScreen(
+) : CottonClientScreen(
     when (description.name) {
         null -> Text.translatable("text.nbtviewer.title")
         else -> Text.literal(description.name)
